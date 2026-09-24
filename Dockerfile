@@ -1,4 +1,4 @@
-FROM eclipse-termurin:17-jdk
+FROM eclipse-temurin:17-jdk
 
 COPY target/proj22.jar /user/app/
 
