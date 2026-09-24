@@ -1,6 +1,6 @@
 FROM eclipse-termurin:17-jdk
 
-COPY target/proj22 /user/app/
+COPY target/proj22.jar /user/app/
 
 WORKDIR /user/app/
 
