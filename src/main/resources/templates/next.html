@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Document</title>
+	</head>
+	<body>
+		<table border="1">
+			<tbody>
+				<tr th:each ="studen : ${student}">
+					<td th:text = "${studen.name}">name</td>
+					<td th:text = "${studen.college}">college</td>
+					<td th:text = "${studen.email}">email</td>
+					<td th:text = "${studen.age}" th:if="${studen.age}<=15">age</td>
+				</tr>
+			</tbody>
+			 
+		</table>
+	</body>
+</html>
